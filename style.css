@@ -142,7 +142,7 @@ h4 {
   margin-top: 30px;
 }
 #rec1 {
-  height: 400px;
+  height: 350px;
 
   margin-left: 50px;
   margin-right: 50px;
@@ -227,8 +227,8 @@ h4 {
   #rec1 {
     flex-direction: column;
     align-items: center;
-    gap: 200px;
-    height: 3200px;
+    gap: 150px;
+    height: 2700px;
   }
   #box img {
     width: 500px;
@@ -256,9 +256,72 @@ h4 {
 @media (max-width: 378px) {
   #box img {
     width: 250px;
-    height: 350px;
+    height: 200px;
   }
   #box {
     width: 250px;
+  }
+}
+#cata {
+  height: 400px;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#cata1 {
+  display: flex;
+}
+#cat img {
+  width: 134.5px;
+}
+#cat {
+  padding: 10px;
+  border: 1px solid black;
+  height: 200px;
+  text-align: center;
+  transition: all 0.5s;
+}
+#cata2 {
+  display: flex;
+}
+#cat:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (max-width: 1338px) {
+  #cat img {
+    width: 110px;
+  }
+}
+@media (max-width: 1133px) {
+  #cat img {
+    width: 90px;
+  }
+}
+@media (max-width: 986px) {
+  #cat img {
+    width: 70px;
+  }
+  #cat {
+    height: 160px;
+  }
+}
+@media (max-width: 860px) {
+  #cata {
+    flex-direction: column;
+    height: 2870px;
+  }
+  #cata1 {
+    flex-direction: column;
+  }
+  #cata2 {
+    flex-direction: column;
+  }
+  #cat img {
+    width: 120px;
+  }
+  #cat {
+    height: 180px;
   }
 }
